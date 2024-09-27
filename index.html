@@ -3,37 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Courses</title>
+    <title>Simple Browser Clone</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Online Courses</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <input type="text" id="url-input" placeholder="Enter URL" />
+        <button id="go-button">Go</button>
     </header>
-    <main>
-        <section>
-            <h2>Featured Courses</h2>
-            <div class="course-card">
-                <img src="images/course1.jpg" alt="Course 1">
-                <h3>Course Title 1</h3>
-                <p>Description of the course.</p>
-                <button>Enroll Now</button>
-            </div>
-            <!-- Add more course cards as needed -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Online Courses</p>
-    </footer>
+    <iframe id="web-frame" src="" width="100%" height="80%"></iframe>
     <script src="js/scripts.js"></script>
 </body>
 </html>
-
