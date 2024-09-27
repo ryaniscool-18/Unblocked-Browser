@@ -15,9 +15,10 @@ header {
     padding: 10px;
 }
 
-#go-button {
+#go-button, #back-button, #forward-button {
     padding: 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
+    margin-left: 5px;
 }
